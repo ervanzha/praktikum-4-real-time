@@ -1,0 +1,12 @@
+Created on Mon Oct 11 13:25:35 2021
+
+@author: ervan
+"""
+
+x = int(input("masukan angka : "))
+
+while x > 0:
+    for i in range(x):
+        print(x, end="")
+    print()          
+    x -= 1
